@@ -25,6 +25,7 @@ Users can input their desired location, travel dates, and preferences (such as f
 	Front-End :  (1)npm install (2)npm run dev
 	Backend : (1) cd server (2) npm install (3) node server_openai.js
 
+```
+## Sample
 
-
-![Preview](./img/Test.jpg)
+![Preview](img/TEST.jpg)
