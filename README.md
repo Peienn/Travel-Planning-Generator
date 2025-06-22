@@ -1,54 +1,30 @@
-# React + TypeScript + Vite
+# Travel Planning Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a travel planning web application powered by OpenAI's GPT-4o-mini model.  
+Users can input their desired location, travel dates, and preferences (such as food types or attractions), and the app generates a personalized travel itinerary using AI.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Front-End : Vite + TypeScript  
+- Backend : JavaScript  
+- OpenAI Model : GPT-4o-mini
 
-## Expanding the ESLint configuration
+## ⚙️ Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+```bash
+1. Clone the Repository
+	git clone https://github.com/Peienn/Vite-TypeScript.git
+	cd Vite-TypeScript
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+2. Configure Environment Variables
+	find the server/.env file and add your OpenAI API key:your_openai_api_key_here
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+3. Install and Run the Application
+	Front-End :  (1)npm install (2)npm run dev
+	Backend : (1) cd server (2) npm install (3) node server_openai.js
+
+
+
+![Preview](./img/Test.jpg)
