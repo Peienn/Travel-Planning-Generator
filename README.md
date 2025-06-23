@@ -16,7 +16,7 @@ Users can input their desired location, travel dates, and preferences (such as f
 ```bash
 1. Clone the Repository
 	git clone https://github.com/Peienn/Vite-TypeScript.git
-	cd Vite-TypeScript
+	cd Travel-Planning-Generator
 
 2. Configure Environment Variables
 	find the server/.env file and add your OpenAI API key:your_openai_api_key_here
