@@ -21,9 +21,8 @@ Users can input their desired location, travel dates, and preferences (such as f
 2. Configure Environment Variables
 	find the server/.env file and add your OpenAI API key:your_openai_api_key_here
 
-3. Install and Run the Application
-	Front-End :  (1)npm install (2)npm run dev
-	Backend : (1) cd server (2) npm install (3) node server_openai.js
+3. Run in your Docker
+	docker-compose up --build 
 
 ```
 ## Sample
