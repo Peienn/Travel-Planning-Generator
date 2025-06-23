@@ -15,7 +15,7 @@ Users can input their desired location, travel dates, and preferences (such as f
 
 ```bash
 1. Clone the Repository
-	git clone https://github.com/Peienn/Vite-TypeScript.git
+	git clone https://github.com/Peienn/Travel-Planning-GeneratorTravel-Planning-Generator.git
 	cd Travel-Planning-Generator
 
 2. Configure Environment Variables
